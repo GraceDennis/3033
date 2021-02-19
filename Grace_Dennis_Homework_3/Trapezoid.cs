@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Grace_Dennis_Homework_3
 {
-    class Trapezoid:Shapes //IShape ******************
+    class Trapezoid : Shapes, IShape
     {
         public double BaseA { get; set; }
         public double BaseB { get; set; }
@@ -42,7 +42,6 @@ namespace Grace_Dennis_Homework_3
         {
             Console.WriteLine($"This is a trapezoid with Base A of:{BaseA}, Base B of: {BaseB}, Leg A of: {LegA}, Leg B of: {LegB}, and Height of : {Height}");
         }
-
 
     }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Grace_Dennis_Homework_3
 {
-    class Triangle:Shapes // IShape *******************
+    class Triangle:Shapes, IShape
     {
         public double EdgeA { get; set; }
         public double EdgeB { get; set; }
@@ -46,5 +46,9 @@ namespace Grace_Dennis_Homework_3
         }
 
 
+    }
+
+    internal interface IShape
+    {
     }
 }
